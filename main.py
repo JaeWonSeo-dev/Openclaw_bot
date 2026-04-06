@@ -64,6 +64,7 @@ async def on_message(message: discord.Message) -> None:
     if message.author.bot:
         return
 
+    ensure_daily_memory_file()
     content = message.content.strip()
 
     if content.startswith("!ping"):
