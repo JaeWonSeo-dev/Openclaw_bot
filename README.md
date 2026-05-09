@@ -30,7 +30,7 @@ Create a `.env` file from `.env.example` and fill in real values:
 ```env
 DISCORD_TOKEN=your-discord-bot-token
 OPENCLAW_API_KEY=your-openclaw-api-key
-WORKSPACE_ROOT=C:\Users\wonsu\.openclaw\workspace
+WORKSPACE_ROOT=C:\Users\user\.openclaw\workspace
 OPENCLAW_TIMEZONE=Asia/Seoul
 ```
 
